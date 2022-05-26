@@ -1,6 +1,6 @@
 # GRU-ow
 GRU to grow your savings
 
-![predicitons_gif](animated_graph2.gif)
+![predicitons_gif](images/animated_graph2.gif)
 
-![traing_loss](train_loss.png)
+![traing_loss](images/train_loss.png)

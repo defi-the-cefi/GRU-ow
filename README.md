@@ -55,12 +55,14 @@ In the command line run to launch an interactive python session with a model tha
 python -i model/train_model.py
 ```
 
+Model convergece observed in our training, as indicated be declining and then plateauing training and validation losses. Even with such a small and limited implementation of this model we get aplha generating results
+
 ![traing_loss](images/train_loss.png)
 
 
 ### Results
 
-Model convergece observed in our training, as indicated be declining and then plateauing training and validation losses. Even with such a small and limited implementation of this model we get aplha generating results
+Using our model to predict prices from our last observed data point. Projecting prices 8 minutes into the future. This is a tunable hyperparamter btw, can project further into the future, but at the expense of training time and model accurracy. 
 
 
 ![predicitons_gif](images/animated_graph2.gif)

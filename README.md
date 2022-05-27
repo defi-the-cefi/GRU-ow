@@ -45,7 +45,7 @@ Optional - For training on a GPU (highly recommended), Nvidia CUDA 10.0+ drivers
 
 
 
-###Dex Swap
+### Dex Swap
 
 
 

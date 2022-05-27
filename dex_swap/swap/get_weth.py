@@ -1,7 +1,6 @@
 from brownie import interface, config, network
 
-from 
-dex-swap.swap.get_account import get_account
+from dex_swap.swap.get_account import get_account
 
 WETH_AMOUNT = 0.01 * 10 ** 18
 

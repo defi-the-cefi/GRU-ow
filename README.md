@@ -6,7 +6,7 @@ Gated Recurrent Network (GRU) to GRUow your savings
   * [Requirements](#requirements)
   * [Usage](#usage)
   * [Results](#results)
-  * [Dex Swap](#Dex Swap)
+  * [Dex Swap](#dexswap)
   * [References](#references)
 
 
@@ -52,7 +52,7 @@ python -i model/train_model.py
 
 
 
-### Dex Swap
+### DexSwap
 
 
 

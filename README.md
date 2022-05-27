@@ -24,6 +24,7 @@ Below is the GRU circuit's math, i.e. the above circuit in the form of math equa
 
 
 ### Requirements
+  * Linux distributions that use glibc >= v2.17
   * Python 3.6
   * matplotlib == 3.1.1
   * numpy == 1.19.4
@@ -40,6 +41,12 @@ pip install -r requirements.txt
 Optional - For training on a GPU (highly recommended), Nvidia CUDA 10.0+ drivers are required
 
 ### Usage
+
+In the command line
+
+```python
+python -i model/train_model.py
+```
 
 ![traing_loss](images/train_loss.png)
 

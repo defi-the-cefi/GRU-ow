@@ -36,7 +36,9 @@ Below is the GRU circuit's math, i.e. the above circuit in the form of math equa
   * mplfinance == 0.12.9b0
   * scipy == 1.7.3
   * eth-brownie == 1.18.2
-Dependencies can be installed using the following command:
+
+
+Python pakcage dependencies can be installed using the following command:
 ```
 pip install -r requirements.txt
 ```

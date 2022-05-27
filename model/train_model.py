@@ -1,6 +1,6 @@
 # %% Model Hyperparameter
 # Device configuration
-device = torch.device('cuda:3' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 model_name = 'ETH-USDT_GRU'
 # make target OHLC to order column so we can drop V when we create dataset for y_batches
 targets = ['closing_price','highest_price','lowest_price','open_price'] #must b a list

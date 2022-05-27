@@ -43,6 +43,12 @@ Optional - For training on a GPU (highly recommended), Nvidia CUDA 10.0+ drivers
 
 ### Usage
 
+Input data is ETH-USDC OHLCV
+
+```
+closing_price,date,highest_price,lowest_price,open_price,utc_timestamp,volume
+```
+
 In the command line run to launch an interactive python session with a model that will train on an nvidia gpu if one is available and CUDA is installed, or the CPU if no compatble GPU is found.
 
 ```python
@@ -53,6 +59,9 @@ python -i model/train_model.py
 
 
 ### Results
+
+Model convergece observed in our training, as indicated be declining and then plateauing training and validation losses. Even with such a small and limited implementation of this model we get aplha generating results
+
 
 ![predicitons_gif](images/animated_graph2.gif)
 

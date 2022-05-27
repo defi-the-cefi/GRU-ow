@@ -1,7 +1,7 @@
 from brownie import interface, network, config, chain
 
-from dex-swap.swap.get_weth import approve_token, get_weth
-from dex-swap.swap.get_account import get_account
+from dex_swap.swap.get_weth import approve_token, get_weth
+from dex_swap.swap.get_account import get_account
 
 SWAP_FEE = 3000  # 0.3%
 WETH_AMOUNT = 0.01 * 10 ** 18

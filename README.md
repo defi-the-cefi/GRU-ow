@@ -13,6 +13,7 @@ Gated Recurrent Network (GRU) to GRUow your savings
 Recent years have seen remarkable progress in the development of statistical and machine learning methods. Increasingly, developer/datascience time spent feature engineering is being replaced by compute cycles and growing data ingestion pipelines. Performance on sequence modeling tasks has improved dramatically with the introduction of deep neural netowrks such as Long-Short Term Memory (LSTM), Gated Recurrent Unit (GRU), and Attention based Transformer Networks. These models represent some of the most powerful dynamic memory autoregressive techniques, a quality essential in attempts to model the complex nonstationary (constantly changing) dynamics of asset exchange markets, such as that of ETH/USDC. In this repo we implement a single-hidden layer Gated Recurrent Network trained to forecast minute level price candles (OHLC), 8 minutes into the future, with the input of the most recent 128 minute candle+volume (OHLCV). 
 
 
+#### Architecture
 The architectural design of the GRU circuit is illustrated below. Each GRU is designed with learnable weight parameters that determine the rate/level of information propogation across a sequence of observed isntances. These units effectively gate the memory of our model.
 ![gru_circuit](images/GRU_circuit.png)
 

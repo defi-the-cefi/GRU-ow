@@ -48,11 +48,11 @@ def main():
     print("Converted.")
 
     # Swap WETH for DAI
-    print("Swapping WETH for DAI...")
-    dai_address = config["networks"][network.show_active()]["dai_token"]
+    print("Swapping WETH for USDC...")
+    usdc_address = config["networks"][network.show_active()]["usdc_token"]
     swap(
         token_in=weth_address,
-        token_out=dai_address,
+        token_out=usdc_address,
         amount_in=WETH_AMOUNT,
         account=account,
     )

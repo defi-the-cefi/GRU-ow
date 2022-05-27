@@ -1,6 +1,6 @@
 from brownie import interface, config, network
 
-import get_account
+from get_account import get_account
 
 WETH_AMOUNT = 0.01 * 10 ** 18
 

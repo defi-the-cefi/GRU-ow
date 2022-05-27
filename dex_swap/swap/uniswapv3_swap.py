@@ -47,7 +47,7 @@ def main():
     get_weth(WETH_AMOUNT, account)
     print("Converted.")
 
-    # Swap WETH for DAI
+    # Swap WETH for USDC
     print("Swapping WETH for USDC...")
     usdc_address = config["networks"][network.show_active()]["usdc_token"]
     swap(

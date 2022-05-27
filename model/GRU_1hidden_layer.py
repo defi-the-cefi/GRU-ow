@@ -9,7 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 import os
-from timeseries_data_loader import Dataset_Custom
+from model.timeseries_data_loader import Dataset_Custom
 
 # from Databases.pytorch_models.GRU.GRU_optimization import Optimization
 

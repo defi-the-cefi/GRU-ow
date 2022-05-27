@@ -6,6 +6,7 @@ Gated Recurrent Network (GRU) to GRUow your savings
   * [Requirements](#requirements)
   * [Usage](#usage)
   * [Results](#results)
+  * [Dex Swap](#Dex Swap)
   * [References](#references)
 
 
@@ -17,7 +18,8 @@ Recent years have seen remarkable progress in the development of statistical and
 The architectural design of the GRU circuit is illustrated below. Each GRU is designed with learnable weight parameters that determine the rate/level of information propogation across a sequence of observed isntances. These units effectively gate the memory of our model.
 ![gru_circuit](images/GRU_circuit.png)
 
-Below is the GRU circuit's math, i.e. the above design as the math equations of parameters we will train to fit
+Below is the GRU circuit's math, i.e. the above circuit in the form of math equations whose parameters we will train to estimate
+
 ![gur_maths](images/gru_maths.png)
 
 
@@ -40,6 +42,11 @@ Optional - For training on a GPU (highly recommended), Nvidia CUDA 10.0+ drivers
 ### Usage
 
 ![traing_loss](images/train_loss.png)
+
+
+
+###Dex Swap
+
 
 
 ### Results

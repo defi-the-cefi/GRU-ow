@@ -25,6 +25,7 @@ Below is the GRU circuit's math, i.e. the above circuit in the form of math equa
 
 ### Requirements
   * Linux distributions that use glibc >= v2.17
+  * gnache-cli >= 6.12.2
   * Python 3.6
   * matplotlib == 3.1.1
   * numpy == 1.19.4
@@ -33,7 +34,7 @@ Below is the GRU circuit's math, i.e. the above circuit in the form of math equa
   * torch == 1.8.0
   * mplfinance == 0.12.9b0
   * scipy == 1.7.3
-
+  * eth-brownie == 1.18.2
 Dependencies can be installed using the following command:
 ```
 pip install -r requirements.txt
@@ -42,7 +43,7 @@ Optional - For training on a GPU (highly recommended), Nvidia CUDA 10.0+ drivers
 
 ### Usage
 
-In the command line
+In the command line run to launch an interactive python session with a model that will train on an nvidia gpu if one is available and CUDA is installed, or the CPU if no compatble GPU is found.
 
 ```python
 python -i model/train_model.py
@@ -51,15 +52,20 @@ python -i model/train_model.py
 ![traing_loss](images/train_loss.png)
 
 
-
-### DexSwap
-
-
-
 ### Results
 
 ![predicitons_gif](images/animated_graph2.gif)
 
 
 
+
+### DexSwap
+
+dex_swap contains a simple script for on-chain conversion of ETH => WETH and then swapped for USDC on uniswap v3
+
+
 ### References
+
+[GRU paper](https://arxiv.org/pdf/1412.3555.pdf)
+
+[GRU applications](https://arxiv.org/pdf/1906.01005.pdf)

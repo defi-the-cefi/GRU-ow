@@ -2,11 +2,11 @@
 Gated Recurrent Network (GRU) to GRUow your savings
 
 ## Overview
-[Intro](#intro)
-[Requirements](#requirements)
-[Usage](#usage)
-[Results](#results)
-[References](#references)
+  * [Intro](#intro)
+  * [Requirements](#requirements)
+  * [Usage](#usage)
+  * [Results](#results)
+  * [References](#references)
 
 
 ### Intro

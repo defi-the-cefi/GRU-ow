@@ -1,4 +1,5 @@
 # Dataset specification
+from model.timeseries_data_loader import Dataset_Custom
 
 train_data_root_path = r'./'
 train_file_name = r'ETH-USDT'+prediction_frequency+'.csv'

@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 
 #from utils.tools import StandardScaler
 # from utils.timefeatures import time_features
-from Informer.timefeatures import time_features
+from timefeatures import time_features
 
 import warnings
 

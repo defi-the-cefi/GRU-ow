@@ -75,7 +75,7 @@ Using our model to predict prices from our last observed data point. Projecting 
 
 ### DexSwap
 
-dex_swap contains a simple script for on-chain conversion of ETH => WETH and then swapped for USDC on uniswap v3
+dex_swap contains a simple python Brownie script for on-chain conversion of ETH => WETH and then swapped for USDC on uniswap v3
 
 
 ### References

@@ -49,7 +49,7 @@ Optional - For training on a GPU (highly recommended), Nvidia CUDA 10.0+ drivers
 Input data is ETH-USDC OHLCV
 
 ```
-closing_price,date,highest_price,lowest_price,open_price,utc_timestamp,volume
+closing_price,date,highest_price,lowest_price,open_price,volume
 ```
 
 In the command line run to launch an interactive python session with a model that will train on an nvidia gpu if one is available and CUDA is installed, or the CPU if no compatble GPU is found.

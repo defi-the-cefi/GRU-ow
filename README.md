@@ -15,7 +15,7 @@ Recent years have seen remarkable progress in the development of statistical and
 
 
 #### Architecture
-The architectural design of the GRU circuit is illustrated below. Each GRU is a node in a deep neueral netowkr that is designed with learnable weight parameters that determine the rate/level of information propogation across a sequence of observed isntances. These units effectively gate the memory of our neural netowrk. They are a condensed and more efficient implementation of the original LSTM gated memory model.
+The architectural design of the GRU circuit is illustrated below. Each GRU is a node in a deep neueral network that is designed with learnable weight parameters that determine the rate/level of information propogation across a sequence of observed isntances. These units effectively gate the memory of our neural netowrk. They are a condensed and more efficient implementation of the original LSTM gated memory model.
 
 ![gru_circuit](images/GRU_circuit.png)
 
